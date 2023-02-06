@@ -1,0 +1,19 @@
+.custom-navbar {
+    background-color: rgba(54,69,79);
+    font-family:'Calibri';
+}
+
+.custom-navbar .navbar-brand {
+    color: bisque;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: bisque;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+.custom-navbar .navbar-nav  {
+    margin-right: 2rem;
+}
