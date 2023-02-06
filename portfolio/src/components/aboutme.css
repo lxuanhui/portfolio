@@ -29,16 +29,23 @@
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
+    border-radius: 25px;
 
 }
 .text-bubble{
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 100%;
 }
 
 h2{
     font-size: 20px;
     font-family: "comic sans ms", sans-serif;
     color: #9fc5e8;
+}
+
+h2 p {
+    text-align: left;
 }
 
 

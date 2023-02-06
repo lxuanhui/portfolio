@@ -3,7 +3,7 @@ const imageSlide = [
         url:'yellowstone.jpg'
     },
     {
-        url:'grandcanyon.jpg'
+        url:'slc.jpg'
     },
     {
         url:'wyoming.jpg'

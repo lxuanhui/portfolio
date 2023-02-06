@@ -3,7 +3,7 @@ import "./aboutme.css"
 
 
 const AboutMe = () => (
-    <section className="about-me-section section-padding">
+    <section id='aboutme'className="about-me-section section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -39,7 +39,9 @@ const AboutMe = () => (
                                     <h2 class="fw-bold">Participated in an exchange semester at the University of Maryland</h2>
                                 </div>
                             </div>
+							
                         </div>
+						
 
                         </div>
    
