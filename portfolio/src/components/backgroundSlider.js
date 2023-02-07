@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./backgroundSlider.css"
 import imageSlide from './backgroundSliderData';
+import AboutMe from './aboutme';
 
 
 
@@ -11,8 +12,9 @@ const BackgroundSlider = () => {
         backgroundImage: `url(${imageSlide[currentState].url})`,
         backgroundPosition:'center',
         backgroundSize:'cover',
-        maxwidth: '100%',
-        height: '979px',
+        height:'100vh',
+        width:'100%',
+        maxHeight:'100%',
         opacity:0.15,
         // filter:'blur(3px)',
         transition: 'background-image 2s linear',
@@ -30,6 +32,8 @@ const BackgroundSlider = () => {
         <div className ="container-style">
             <div style={bgImageStyle}>
             </div>
+            <AboutMe/>
+
         </div>    
     )
     

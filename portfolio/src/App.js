@@ -4,7 +4,6 @@ import MyNavbar from './components/navbar';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import BackgroundSlider from './components/backgroundSlider';
-import AboutMe from './components/aboutme';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       </Helmet>
       <MyNavbar/>
       <BackgroundSlider/>
-      <AboutMe/>
     </div>
   );
 }
