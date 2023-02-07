@@ -5,14 +5,14 @@
 
 .custom-navbar .navbar-brand {
     color: bisque;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 2rem;
 }
 
 .custom-navbar .navbar-nav .nav-link {
     color: bisque;
     margin-right: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .custom-navbar .navbar-nav  {
     margin-right: 2rem;

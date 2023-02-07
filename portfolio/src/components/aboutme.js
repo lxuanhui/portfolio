@@ -12,9 +12,9 @@ const AboutMe = () => (
                         <h1>About Me</h1>
                         <hr
                             style={{
-                            background: 'grey',
-                            color: 'grey',
-                            borderColor: 'grey',
+                            background: 'antiquewhite',
+                            color: 'antiquewhite',
+                            borderColor: 'antiquewhite',
                             height: '7px',
                             width: '30%',
                             display:'inline-block'
@@ -32,6 +32,7 @@ const AboutMe = () => (
                 
                                 <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
                                     <h2 className="fw-bold">Senior Computer Science Major at Nanyang Technological University</h2>
+                                    <p className="mb-0">Specialising in Cybersecurity and Data Science</p>
                                     
                                     <p className="mb-0">Graduating in December 2023!</p>
                                 </div>

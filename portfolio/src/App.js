@@ -4,8 +4,12 @@ import MyNavbar from './components/navbar';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import BackgroundSlider from './components/backgroundSlider';
+import AboutMe from './components/aboutme';
+import Projects from './components/projects';
+
 
 function App() {
+  const navbarHeight = "8rem";
   return (
     <div className='App'>
       <Helmet>
@@ -13,7 +17,14 @@ function App() {
         <meta name="description" content="My website" /> 
       </Helmet>
       <MyNavbar/>
-      <BackgroundSlider/>
+      <BackgroundSlider>
+        <div style={{position:"relative", zIndex:1, backgroundColor:'rgba(0,0,0,0.7)', paddingTop: navbarHeight}}>
+          <AboutMe />
+          <Projects />
+        </div>
+
+      </BackgroundSlider>
+      
     </div>
   );
 }
