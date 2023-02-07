@@ -1,15 +1,15 @@
 import React from 'react';
-import "./css/aboutme.css"
+// import "./education.css"
 
 
-const AboutMe = () => (
-    <section id='aboutme'className="about-me-section section-padding">
+const Education = () => (
+    <section id='education'className="education-section section-padding">
         <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="section-title text-center" data-aos="fade-up" data-aos-delay="100">
                         <br></br>
-                        <h1>About Me</h1>
+                        <h1>Education and Experience</h1>
                         <hr
                             style={{
                             background: 'antiquewhite',
@@ -50,5 +50,4 @@ const AboutMe = () => (
     </section>
 );
 
-export default AboutMe
-
+export default Education;

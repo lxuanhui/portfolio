@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./backgroundSlider.css"
+import "./css/backgroundSlider.css"
 import imageSlide from './backgroundSliderData';
 
 

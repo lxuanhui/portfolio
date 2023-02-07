@@ -1,5 +1,5 @@
 import React from 'react';
-import "./projects.css"
+import "./css/projects.css"
 import ProjectField from './projectfield';
 import ProjectData from './projectsData';
 
