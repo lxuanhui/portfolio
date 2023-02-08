@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import "./css/backgroundSlider.css"
 import imageSlide from './backgroundSliderData';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -13,9 +13,8 @@ const BackgroundSlider = ({children}) => {
         backgroundPosition:'center',
         backgroundSize:'contain',
         width:'100%',
-        
         transition: 'background-image 2s linear',
-        backgroundRepeat:'repeat-y',
+        backgroundRepeat:'repeat',
 
     }
     useEffect(() => {
@@ -25,12 +24,9 @@ const BackgroundSlider = ({children}) => {
         return () => clearInterval(intervalId);
     }, [currentState]);
     return(
-        <div className ="container-style" style={bgImageStyle}> 
-        
-        {children}
-               
-            
-        </div>    
+        <Container fluid className ="container-style p-0" style={bgImageStyle} >         
+            {children}
+        </Container>    
     )
     
 };

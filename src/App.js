@@ -9,23 +9,24 @@ import Projects from './components/projects';
 import Education from './components/education';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import { Container } from 'react-bootstrap';
 
 function App() {
   const navbarHeight = "8rem";
   return (
-    <div className='App'>
+    <div className='App' >
       <Helmet>
         <title>Lee Xuanhui's Website</title>
         <meta name="description" content="My website" /> 
       </Helmet>
       <MyNavbar/>
       <BackgroundSlider>
-        <div style={{position:"relative", zIndex:1, backgroundColor:'rgba(0,0,0,0.7)', paddingTop: navbarHeight}}>
+        <Container fluid style={{position:"relative", zIndex:1, backgroundColor:'rgba(0,0,0,0.7)', paddingTop: navbarHeight}}>
           <AboutMe />
           <Projects />
           <Education/>
           <Contact/>
-        </div>
+        </Container>
 
       </BackgroundSlider>
       <Footer/>

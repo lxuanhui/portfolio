@@ -7,8 +7,8 @@ import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-i
 const Footer = () => (
   <footer className="custom-footer py-3">
     <Container>
-      <Row className="gy-5">
-        <Col className="col-md-4">
+      <Row>
+        <Col lg={8}  xs={12}>
             <h2 className="text-left text-white "> 
                 Lee Xuanhui
             </h2>
@@ -32,10 +32,8 @@ const Footer = () => (
                 
             </span>                    
         </Col>
-        <Col className="col-md-4">
-          
-        </Col>
-        <Col className="col-md-4">
+        
+        <Col lg={4}  xs={12}>
             <h2 className="text-left text-white "> 
                 Contact
             </h2>
