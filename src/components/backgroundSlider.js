@@ -13,8 +13,8 @@ const BackgroundSlider = ({children}) => {
         backgroundPosition:'center',
         backgroundSize:'contain',
         width:'100%',
-        transition: 'background-image 2s linear',
-        backgroundRepeat:'repeat',
+        transition: 'background-image 2s ease-in-out ',
+        // backgroundRepeat:'repeat',
 
     }
     useEffect(() => {
