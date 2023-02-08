@@ -11,24 +11,19 @@ const ProjectData = {
             "image": "seed_labs.jpg"
         },
         {
-            "title": "HackMIT Hackathon 2021",
-            "description": "Participated in a hackathon at MIT University.",
-            "image": "mit.jpg"
+            "title": "Advanced Software Engineering Project",
+            "description": "Built a web-based Trail Making Test to determine driving aptitude of elderly drivers with mild dementia",
+            "image": "TrailMakingTest-logos_transparent.png"
         },
         {
-            "title": "HackNYU Hackathon 2021",
-            "description": "Participated in a hackathon at NYU University.",
-            "image": "nyu.jpg"
+            "title": "Software Engineering Project ",
+            "description": "Completed an android application for users to book appointments at clinics islandwide and a chatbot to answer user queries",
+            "image": "sickgowhere.jpg"
         },
         {
-            "title": "HackPrinceton Hackathon 2021",
-            "description": "Participated in a hackathon at Princeton University.",
-            "image": "princeton.jpg"
-        },
-        {
-            "title": "HackRice Hackathon 2021",
-            "description": "Participated in a hackathon at Rice University.",
-            "image": "rice.jpg"
+            "title": "Data Science Project",
+            "description": "Analysed an aviation accident dataset to determine likeliest cause of aircraft accidents",
+            "image": "dsai.jpg"
         },
     ]
 }
