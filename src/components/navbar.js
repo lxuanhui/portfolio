@@ -5,24 +5,21 @@ import "./css/navbar.css"
 const MyNavbar = () => {
     const [hidden, setHidden] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
-  
+
     useEffect(() => {
       const handleScroll = () => {
-
-        const currentScrollY = window.scrollY;
+        const currentScrollY = window.pageYOffset;
         if (currentScrollY > lastScrollY) {
           setHidden(true);
         } else {
           setHidden(false);
         }
         setLastScrollY(currentScrollY);
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-
-            window.removeEventListener('scroll', handleScroll);
-        };
-        
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
     }, [lastScrollY]);
     return (
         <Navbar expand="lg" className="custom-navbar" fixed='top' hidden={hidden}>
