@@ -7,7 +7,8 @@ import BackgroundSlider from './components/backgroundSlider';
 import AboutMe from './components/aboutme';
 import Projects from './components/projects';
 import Education from './components/education';
-
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   const navbarHeight = "8rem";
@@ -23,9 +24,11 @@ function App() {
           <AboutMe />
           <Projects />
           <Education/>
+          <Contact/>
         </div>
 
       </BackgroundSlider>
+      <Footer/>
       
     </div>
   );

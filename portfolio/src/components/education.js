@@ -24,21 +24,37 @@ const Education = () => (
                         </div></div>
                         <div className="row">
                             
-                            <div className="col-4">
+                            <div className="col-md-6">
+                                <div className="row">
+                                    <div className="col-12">
+                                        <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
+                                        <h2 className="fw-bold">Nanyang Technological University, Bachelor of Engineering (Computer Science)</h2>
+                                        <p className="text-muted">Aug 2019 - Present</p>
+                                        
+                                        <p className="mb-0">Graduating in December 2023!</p>
+                                </div>
+                                    </div>
+                                </div>
 
-                                <div className="portfoliopic" data-aos="fade-up" data-aos-delay="100"><img src="google.jpg" alt="Potrait"/></div>
                             </div>
-                            <div className="col-8" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div className='row'>
+                                    <div className="col-12">
+                                        <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
+                                            <h2 className="fw-bold">Fullstack Developer Intern at FoodLine.sg</h2>
+                                            <p className="text-muted">Dec 2021 - May 2022</p>
+                                            <ul style={{color:'white', textAlign:'left'}}>
+                                                <li>Developed, maintained, and tested frontend and backend components using LAMP stack (Laravel, Apache, MySQL, PHP) </li>
+                                                <br/>                                                
+                                                <li>Collaborated with staff from operations, marketing, and sales departments to develop features on website for business requirements</li>
+                                                <br/>
+                                                <li>Designed, implemented and tested features to support company's expansion into Malaysia</li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+
+                                </div>
                 
-                                <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
-                                    <h2 className="fw-bold">Senior Computer Science Major at Nanyang Technological University</h2>
-                                    <p className="mb-0">Specialising in Cybersecurity and Data Science</p>
-                                    
-                                    <p className="mb-0">Graduating in December 2023!</p>
-                                </div>
-								<div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
-                                    <h2 className="fw-bold">Participated in an exchange semester at the University of Maryland</h2>
-                                </div>
                             </div>
 							
                         </div>

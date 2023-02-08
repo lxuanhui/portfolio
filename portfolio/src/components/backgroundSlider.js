@@ -21,7 +21,7 @@ const BackgroundSlider = ({children}) => {
     useEffect(() => {
         let intervalId = setInterval(() => {
             setCurrentState((currentState + 1) % imageSlide.length);
-        }, 3000);
+        }, 10000);
         return () => clearInterval(intervalId);
     }, [currentState]);
     return(
