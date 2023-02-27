@@ -25,19 +25,24 @@ const Contact = () => (
                 </Col>                         
             </Row>
             <Row  style={{padding:'3rem'}}>
-                <Col lg={4} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
+                <Col lg={3} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
                 <a href="https://www.linkedin.com/in/xuanhui-lee/" class="btn btn-light" role="button" aria-pressed="true" style={{borderRadius:"25px"}}>
                     <img src="/LinkedIn-Logos/LI-Logo.png" alt="LinkedIn" width={200} height={60} style={{margin:'20px'}}/>
                 </a>
                 </Col>
-                <Col lg={4}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
+                <Col lg={3}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
                 <a href="https://github.com/lxuanhui" class="btn btn-light" role="button" aria-pressed="true" style={{borderRadius:"25px"}}>
                     <img src="/GitHub-Logos/GitHub_Logo.png" alt="Github" width={200} height={60} style={{margin:'20px'}}/>
                 </a>
                 </Col>
-                <Col lg={4}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
+                <Col lg={3}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
                 <a href="https://t.me/lxuanhui" class="btn btn-light" role="button" aria-pressed="true" style={{borderRadius:"25px"}}>
                     <img src="/telegram.png" alt="Telegram" width={200} height={60} style={{margin:'20px'}}/>
+                </a>
+                </Col>
+                <Col lg={3}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom:'1rem'}}>
+                <a href="https://devpost.com/lxuanhui" class="btn btn-light" role="button" aria-pressed="true" style={{borderRadius:"25px"}}>
+                    <img src="https://www.vectorlogo.zone/logos/devpost/devpost-ar21.svg" alt="Devpost" width={200} height={60} style={{margin:'20px'}}/>
                 </a>
                 </Col>
             </Row>
