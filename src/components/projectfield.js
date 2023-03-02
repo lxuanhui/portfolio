@@ -9,6 +9,7 @@ const projectfield = (props) => {
                 </Col>
                 <Col xs ={12} lg = {8} data-aos="fade-up" data-aos-delay="100" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <div className="projects-text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
+                        <p className='fw-bold'>Date: {props.date}</p>
                         <h2 className="fw-bold">{props.title}</h2>
                         <p className="mb-0">{props.description}</p>
                     </div>
