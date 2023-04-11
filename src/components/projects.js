@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row , Col} from 'react-bootstrap';
 import "./css/projects.css"
 import ProjectField from './projectfield';
 import ProjectData from './projectsData';
+import CompetitionsData from './competitionsData';
+const Projects = () => {
+    const [showProjects, setShowProjects] = useState(true);
 
-const Projects = () => (
+    const handleClick = () => {
+        setShowProjects(!showProjects);
+    };
+    const dataToDisplay = showProjects ? ProjectData.projects : CompetitionsData.competitions;
+
+    return (
     <Container id='projects'>
         
             <Row>
@@ -22,23 +30,29 @@ const Projects = () => (
                             display:'inline-block'
                             }}
                         />
-                        <h2 style={{textAlign:"center", color:"white", fontSize:"1.5rem", padding:'5px'}}>Here are some projects that I have done - both in school and externally</h2>
+                        <h2 style={{textAlign:"center", color:"white", fontSize:"1.5rem", padding:'5px'}}>Here are some projects that I have done - both in school and externally
+                            <p style={{textAlign:"center", color:"white", fontSize:"1rem", padding:'5px'}}>Toggle betwen Software Engineering Projects and Capture The Flag competitions</p>
+                        </h2>
+                        <button onClick={handleClick}>
+                            {showProjects ? 'Show Capture The Flags' : 'Show SWE Projects'}
+                        </button>
                     </div>
                 </Col>
-                {ProjectData.projects.map((project, index) => (
-                    <ProjectField
-                        key={index}
-                        title={project.title}
-                        description={project.description}
-                        image={project.image}
-                        date={project.date}
-                        
-                    />
-                ))}                        
+                {dataToDisplay.map((item, index) => (
+                <ProjectField
+                    key={index}
+                    title={item.title}
+                    description={item.description}
+                    image={item.image}
+                    date={item.date}
+                />
+                ))}                    
             </Row>
         
     </Container>
-)
+    );
+
+}
 
 export default Projects;
                         
