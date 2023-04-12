@@ -1,5 +1,12 @@
 const ProjectData = {
     "projects": [
+        {
+            "title": "Multi-Disclipinary Project",
+            "description": "Designed and developed a robot car that can navigate a maze and identify images. I was responsible for creating the algorithm that searches the best possible path while generating a series of movements for the car to follow.",
+            "image": "MDP.jpg",
+            "date": "Jan 2023 - Mar 2023"
+        }
+        ,
 
         {
             "title": "iNTUition Hackathon 2023",
