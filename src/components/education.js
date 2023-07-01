@@ -9,7 +9,7 @@ const Education = () => (
                 <div className="col-12">
                     <div className="section-title text-center" data-aos="fade-up" data-aos-delay="100">
                         <br></br>
-                        <h1>Education and Experience</h1>
+                        <h1>Experience</h1>
                         <hr
                             style={{
                             background: 'antiquewhite',
@@ -24,19 +24,6 @@ const Education = () => (
                         </div></div>
                         <div className="row">
                             
-                            <div className="col-md-6">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
-                                        <h2 className="fw-bold">Nanyang Technological University, Bachelor of Engineering (Computer Science)</h2>
-                                        <p className="text-muted">Aug 2019 - Present</p>
-                                        
-                                        <p className="mb-0">Graduating in December 2023!</p>
-                                </div>
-                                    </div>
-                                </div>
-
-                            </div>
                             <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div className='row'>
                                     <div className="col-12">
