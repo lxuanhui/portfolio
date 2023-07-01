@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const Education = () => (
-    <section id='education&experience'className="education-section section-padding">
+    <section id='experience'className="education-section section-padding">
         <div className="container">
             <div className="row">
                 <div className="col-12">
