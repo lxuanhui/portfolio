@@ -23,8 +23,8 @@ function App() {
       <BackgroundSlider>
         <Container fluid style={{position:"relative", zIndex:1, backgroundColor:'rgba(0,0,0,0.7)', paddingTop: navbarHeight}}>
           <AboutMe />
-          <Projects />
           <Education/>
+          <Projects />
           <Contact/>
         </Container>
 
