@@ -25,7 +25,6 @@ function App() {
           <AboutMe />
           <Education/>
           <Projects />
-          <Contact/>
         </Container>
 
       </BackgroundSlider>
