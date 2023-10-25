@@ -32,7 +32,7 @@ const AboutMe = () => (
                             <h2 className="fw-bold">Senior Computer Science Major at Nanyang Technological University</h2>
                             <p className="mb-0">Specialising in Cybersecurity and Data Science</p>
                             
-                            <p className="mb-0">Graduating in December 2023!</p>
+                            <p className="mb-0">Graduating in May 2024!</p>
                         </div>
                         <div className="text-bubble service border-hover p-5 shadow rounded-5 bg-dark" >
                             <h2 className="fw-bold">Participated in an exchange semester at the University of Maryland</h2>

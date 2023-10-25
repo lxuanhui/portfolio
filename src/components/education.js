@@ -33,7 +33,7 @@ const Education = () => (
                                             <ul style={{color:'white', textAlign:'left'}}>
                                                 <li>Conducted research and evaluation of ML/DL models, utilizing open-source tools such as SDV and YData, to generate synthetic tabular data; models used included CTGAN, Gaussian Copula, etc.</li>
                                                 <br/>                                                
-                                                <li>Contributed to the development of the product using TypeScript, NextJS, Mantine, and a serverless backend leveraging Amazon Web Services</li>
+                                                <li>Contributed to the development of the product using TypeScript, NextJS, and a serverless backend leveraging Amazon Web Services</li>
                                                 <br/>
                                                 <li>Collaborated on UI/UX design, leveraging Figma for prototyping and design collaboration, ensuring an intuitive and user-friendly product interface.</li>
                                                 <br/>
