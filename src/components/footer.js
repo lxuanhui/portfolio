@@ -1,49 +1,15 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './css/footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons';
-
 const Footer = () => (
-  <footer className="custom-footer py-3">
-    <Container>
-      <Row>
-        <Col lg={8}  xs={12}>
-            <h2 className="text-left text-white "> 
-                Lee Xuanhui
-            </h2>
-            <p className="text-left text-secondary">
-                Thank you for visiting my website!
+    <div id='footer' className="px-4 py-4 bg-slate-100 dark:bg-gray-800 dark:text-gray-200">
+        <div className="container mx-auto flex justify-between ">
+            <p className="text-xs">
+                Sean, 2024
             </p>
-            
-            <span id='icons-list' style={{float:'left'}}>
-                
-                <a href="https://github.com/lxuanhui">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
-                </a>
-                
-                <a href="https://linkedin.com/in/xuanhui-lee">
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                </a>
-                
-                <a href="https://t.me/lxuanhui">
-                    <FontAwesomeIcon icon={faTelegram} size="2x" />
-                </a>
-                
-            </span>                    
-        </Col>
-        
-        <Col lg={4}  xs={12}>
-            <h2 className="text-left text-white "> 
-                Contact
-            </h2>
-            <p className="text-left text-secondary">
-                Email: xuanhui98@gmail.com
+            <p className="text-xs">
+                Built with <span className='text-blue-600'>ReactJS</span> and <span className='text-blue-600'>TailwindCSS</span>. <br/> Deployed with <span className='text-blue-600'>AWS</span>.
+                <br/> <a href="https://storyset.com/web" className='text-blue-600'>Web illustrations by Storyset</a>
             </p>
-        </Col>
-      </Row>
-    </Container>
-  </footer>
+        </div>
+    </div>
 );
 
 export default Footer;
