@@ -4,19 +4,25 @@ import { Helmet } from 'react-helmet';
 import AboutMe from './components/aboutme';
 import Navbar from './components/navbar';
 import Experience from './components/experience';
+import Projects from './components/projects';
+import Footer from './components/footer';
+import { DarkModeProvider } from './components/darkmodecontext';
 
 function App() {
-  const navbarHeight = "8rem";
   return (
-    <div className='App' >
-      <Helmet>
-        <title>Lee Xuanhui's Website</title>
-        <meta name="description" content="My website" /> 
-      </Helmet>
-      <Navbar />
-      <AboutMe />
-      <Experience />    
-    </div>
+    <DarkModeProvider>
+      <div className='App' >
+        <Helmet>
+          <title>Lee Xuanhui's Website</title>
+          <meta name="description" content="My website" />
+        </Helmet>
+        <Navbar />
+        <AboutMe />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
+    </DarkModeProvider>
   );
 }
 
