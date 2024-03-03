@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center py-3">
                     {/* Logo or Brand name */}
                     <div className="flex items-center justify-start md:pl-10">
-                        <a href="#" className="text-xl font-medium mr-10 text-gray-800 dark:text-gray-400">
+                        <a href="#aboutme" className="text-xl font-medium mr-10 text-gray-800 dark:text-gray-400">
                             <img src="blob.svg" alt="home" className="w-10 h-10" />
                         </a>
                     </div>
@@ -119,16 +119,16 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}>
-                <a href="#aboutme" className="block py-2 px-4 text-sm text-slate-300">
+                <a href="#aboutme" className="block py-2 px-4 text-sm text-slate-200">
                     About Me
                 </a>
-                <a href="#experience" className="block py-2 px-4 text-sm text-slate-300">
+                <a href="#experience" className="block py-2 px-4 text-sm text-slate-200">
                     Experience
                 </a>
-                <a href="#projects" className="block py-2 px-4 text-sm text-slate-300">
+                <a href="#projects" className="block py-2 px-4 text-sm text-slate-200">
                     Projects
                 </a>
-                <a href="Resume_Lee_Xuanhui.pdf" className="block py-2 px-4 text-sm text-slate-300">
+                <a href="Resume_Lee_Xuanhui.pdf" className="block py-2 px-4 text-sm text-slate-200">
                     Resume
                 </a>
             </div>

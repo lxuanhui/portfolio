@@ -23,7 +23,7 @@ const AboutMe = () => (
                     <a
                         href="https://www.disney.com/"
                         target="_blank"
-                        className="text-blue-600 text-bold dark:text-cyan-600"
+                        className="text-blue-600 text-bold dark:text-cyan-600" rel="noreferrer"
                     >
                         Disney
                     </a>
