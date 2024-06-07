@@ -18,13 +18,15 @@ const Experience = () => (
               <p className="text-gray-700 mb-4 dark:text-slate-400">Jan 2024 - Present</p>
               <div className="text-gray-600 text-sm dark:text-slate-300 text-left">
                 <li className="p-2">
-                Leveraged AWS(Athena, Glue) for ETL scripting, utilizing Python and Spark for marketing data processing and analytics.
+                Engineered ETL processes using AWS Athena and Glue, employing Python and Spark for data transformation, and integrating Datorama and Adobe Analytics with Power BI to enhance marketing data analytics and visualization.                </li>
+                <li className="p-2">
+                Orchestrated ETL pipelines using Apache Airflow, designing and managing DAGs to automate Python scripts for extracting data from TikTok Business Center APIs and Pixels. Extracted data into an AWS S3 data lake, transformed it with AWS Glue, utilized AWS Athena as a data warehouse for querying and analysis.                 
                 </li>
                 <li className="p-2">
-                Orchestrated robust CI/CD pipelines with GitLab, managing containerized applications using Docker, Kubernetes (EKS), and Nginx on AWS, ensuring optimal system performance and reliability.                </li>
+                Designed and implemented a CI/CD pipeline using GitLab CI/CD, Docker, Kubernetes, and Nginx on AWS.                </li>
                 <li className="p-2">
-                Developed widgets for Disney regional websites using JavaScript and jQuery to display movie showtimes.
-                </li>
+                Developed dynamic widgets for Disney’s regional websites in JavaScript and jQuery to showcase movie showtimes, enhancing user engagement; also expanded site functionality using PHP and ReactJS for various microsites.                </li>
+              
               </div>
               <div className="flex flex-wrap justify-center pt-2">
                 <Badge>Web Dev</Badge>
