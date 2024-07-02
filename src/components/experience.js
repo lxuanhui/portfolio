@@ -18,7 +18,7 @@ const Experience = () => (
               <p className="text-gray-700 mb-4 dark:text-slate-400">Jan 2024 - Present</p>
               <div className="text-gray-600 text-sm dark:text-slate-300 text-left">
                 <li className="p-2">
-                Engineered ETL processes using AWS Athena and Glue, employing Python and Spark for data transformation, and integrating Datorama and Adobe Analytics with Power BI to enhance marketing data analytics and visualization.                </li>
+                Engineered ETL processes using AWS Athena and Glue, employing Python and Spark for data transformation, and integrating Datorama and Adobe Analytics to enhance marketing data analytics and visualization.                </li>
                 <li className="p-2">
                 Orchestrated ETL pipelines using Apache Airflow, designing and managing DAGs to automate Python scripts for extracting data from TikTok Business Center APIs and Pixels. Extracted data into an AWS S3 data lake, transformed it with AWS Glue, utilized AWS Athena as a data warehouse for querying and analysis.                 
                 </li>
