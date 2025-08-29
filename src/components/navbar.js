@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 const Navbar = () => {
@@ -20,21 +20,21 @@ const Navbar = () => {
     }, [darkMode]);
 
 
-    const controlNavbar = () => {
+    const controlNavbar = useCallback(() => {
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
             setShowNavbar(false);
         } else if (window.scrollY < lastScrollY) {
             setShowNavbar(true);
         }
         setLastScrollY(window.scrollY);
-    };
+    }, [lastScrollY]);
 
     useEffect(() => {
         window.addEventListener('scroll', controlNavbar);
         return () => {
             window.removeEventListener('scroll', controlNavbar);
         };
-    }, [lastScrollY]);
+    }, [controlNavbar]);
 
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
@@ -77,9 +77,9 @@ const Navbar = () => {
 
                     {/* Right-aligned items, e.g., a contact button or social links */}
                     <div className="hidden md:flex flex items-center justify-end px-10 ">
-                        <a onClick={toggleDarkMode} className="mx-5 p-2 cursor-pointer rounded hover:bg-slate-200 dark:hover:bg-slate-800">
+                        <button type="button" onClick={toggleDarkMode} aria-label="Toggle dark mode" className="mx-5 p-2 cursor-pointer rounded hover:bg-slate-200 dark:hover:bg-slate-800">
                             {darkMode ? <SunIcon className="h-6 w-6 text-yellow-500" /> : <MoonIcon className="h-6 w-6 text-gray-700" />}
-                        </a>
+                        </button>
                         {/* Elements that will be hidden on mobile screens */}
                         {/* dark mode button with color scheme*/}
                         <a

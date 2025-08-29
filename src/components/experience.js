@@ -14,7 +14,7 @@ const Experience = () => (
           {/* Card 1 */}
           <div className="w-full md:w-1/2 lg:w-1/3 px-2">
             <div className="bg-white hover:bg-gray-100 p-4 rounded-lg shadow-lg transition duration-300 ease-in-out dark:bg-slate-800 dark:hover:bg-slate-600">
-              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Data Engineering and Marketing Tech Intern @ <a href="https://www.disney.com/" target="_blank" className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">Disney</a></h2>
+              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Data Engineering and Marketing Tech Intern @ <a href="https://www.disney.com/" target="_blank" rel="noreferrer" className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">Disney</a></h2>
               <p className="text-gray-700 mb-4 dark:text-slate-400">Jan 2024 - Present</p>
               <div className="text-gray-600 text-sm dark:text-slate-300 text-left">
                 <li className="p-2">
@@ -38,7 +38,7 @@ const Experience = () => (
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-2">
             <div className="bg-white hover:bg-gray-100 p-4 rounded-lg shadow-lg transition duration-300 ease-in-out dark:bg-slate-800 dark:hover:bg-slate-600">
-              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Software Engineer Intern at <a href="https://www.tech.gov.sg/" target="_blank"  className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">GovTech Singapore</a></h2>
+              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Software Engineer Intern at <a href="https://www.tech.gov.sg/" target="_blank" rel="noreferrer"  className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">GovTech Singapore</a></h2>
               <p className="text-gray-700 mb-4 dark:text-slate-400">May 2023 - Dec 2023</p>
               <div className="text-gray-600 text-sm dark:text-slate-300 text-left">
                 <li className="p-2">
@@ -54,7 +54,7 @@ const Experience = () => (
                 Automated AWS infrastructure deployment and scaling using Terraform, aligning with DevOps principles to enhance CI/CD pipelines and streamline release processes.
                 </li>
                 <li className="p-2">
-                  <a href="https://medium.com/dsaid-govtech/my-internship-journey-in-dsaid-de-cloak-the-central-privacy-toolkit-2b2f9e735a26" target="_blank" className="text-blue-600 dark:text-cyan-600 hover:underline cursor-pointer">Check out my Medium article!</a>
+                  <a href="https://medium.com/dsaid-govtech/my-internship-journey-in-dsaid-de-cloak-the-central-privacy-toolkit-2b2f9e735a26" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-cyan-600 hover:underline cursor-pointer">Check out my Medium article!</a>
                 </li>
               </div>
               <div className="flex justify-center pt-2">
@@ -67,7 +67,7 @@ const Experience = () => (
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-2">
             <div className="bg-white hover:bg-gray-100 p-4 rounded-lg shadow-lg transition duration-300 ease-in-out dark:bg-slate-800 dark:hover:bg-slate-600">
-              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Fullstack Developer Intern @ <a href="https://www.foodline.sg/" target="_blank"  className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">Foodline.sg</a></h2>
+              <h2 className="text-xl font-semibold mb-2 dark:text-slate-200">Fullstack Developer Intern @ <a href="https://www.foodline.sg/" target="_blank" rel="noreferrer"  className="hover:underline hover:cursor-pointer text-blue-600 dark:text-cyan-600">Foodline.sg</a></h2>
               <p className="text-gray-700 mb-4 dark:text-slate-400">Dec 2021 - May 2022</p>
               <div className="text-gray-600 text-sm dark:text-slate-300 text-left">
                 <li className="p-2">

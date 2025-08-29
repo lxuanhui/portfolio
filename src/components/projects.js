@@ -23,7 +23,7 @@ const ProjectCard = ({ title, description, imageUrl, content, content1, content2
         <div className="flex-col">
             <img className="rounded-lg mt-4 w-full sm:w-2/3 md:w-2/3 lg:w-4/5 xl:w-4/5 h-3/4 max-w-full" src={imageUrl} alt={title} />
             <div className="mt-4 flex-col justify-end">
-                <a href={link} target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline cursor-pointer">View Project</a>
+                <a href={link} target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline cursor-pointer">View Project</a>
             </div>
         </div>
 
