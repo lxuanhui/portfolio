@@ -3,4 +3,4 @@ compatibility_date = "2024-08-01"
 
 [assets]
 directory = "./build"
-not_found_handling = "single_page_application"
+not_found_handling = "single-page-application"
