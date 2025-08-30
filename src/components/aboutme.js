@@ -1,55 +1,54 @@
 import React from "react";
 
 const AboutMe = () => (
-    <div id="aboutme" className="bg-white px-4 py-8 mt-10 dark:bg-slate-900">
-        <div className="container mx-auto flex flex-col lg:flex-row items-center">
+    <div id="aboutme" className="bg-white px-2 sm:px-4 py-6 sm:py-8 mt-10 dark:bg-slate-900">
+        <div className="container mx-auto max-w-6xl flex flex-col lg:flex-row items-center">
             <div className="flex-1 text-left">
-                <p className="text-xl lg:text-xl font-bold dark:text-cyan-600">
+                <p className="text-lg sm:text-xl font-bold dark:text-cyan-600">
                     Hello, I'm{" "}
                 </p>
-                <h1 className="text-4xl lg:text-6xl font-bold dark:text-slate-200">
+                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold dark:text-slate-200">
                     <span className="text-blue-600 dark:text-slate-200">Xuanhui.</span>
                 </h1>
-                <p className="text-xl lg:text-2xl mt-3 mb-4 dark:text-slate-200">
+                <p className="text-lg sm:text-xl lg:text-2xl mt-3 mb-4 dark:text-slate-200">
                     Or you can call me{" "}
                     <span className="text-blue-600 dark:text-cyan-600">Sean!</span>
                 </p>
-                <p className="text-lg leading-relaxed dark:text-slate-400">
-                    I am a final year computer science major at{" "}
+                <p className="text-base sm:text-lg leading-relaxed dark:text-slate-400">
+                    I am currently a software engineer at{" "}
                     <span className="text-blue-600 font-semibold dark:text-cyan-600">
-                        Nanyang Technological University
+                        United Overseas Bank
                     </span>
-                    . Currently, I am a data engineering intern at{" "}
-                    <a
-                        href="https://www.disney.com/"
-                        target="_blank"
-                        className="text-blue-600 text-bold dark:text-cyan-600" rel="noreferrer"
-                    >
-                        Disney
-                    </a>
-                    , where I work on building ETL pipielines to process and transform
-                    marketing data for analytics and reporting. At Disney, I also work on
-                    improving DevOps processes and CI/CD pipelines. Occasionally, I also
-                    work on ad-hoc web development projects for Disney.
+                    . My passion lies in{" "}
+                    <span className="text-blue-600 font-semibold dark:text-cyan-600">
+                        software engineering
+                    </span>{" "}
+                    and{" "}
+                    <span className="text-blue-600 font-semibold dark:text-cyan-600">
+                        data engineering
+                    </span>
+                    .
                 </p>
-                <div className="mt-4 flex items-center space-x-4">
-                    <a href="https://www.linkedin.com/in/xuanhui-lee" target="_blank" rel="noopener noreferrer" className="rounded p-4 dark:hover:bg-slate-800">
-                        <img src="icons8-linkedin.svg" alt="LinkedIn" className="w-10 h-10" />
+                <p className="text-base sm:text-lg leading-relaxed dark:text-slate-400 mt-3">
+                    I love building data pipelines, creating web applications, and turning complex problems into elegant solutions. When I'm not coding, you'll find me exploring new technologies and working on personal projects that combine my interests in data and web development.
+                </p>
+                <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-4">
+                    <a href="https://www.linkedin.com/in/xuanhui-lee" target="_blank" rel="noreferrer" className="rounded p-3 sm:p-4 dark:hover:bg-slate-800 transition duration-300">
+                        <img src="icons8-linkedin.svg" alt="LinkedIn" className="w-8 h-8 sm:w-10 sm:h-10" />
                     </a>
-                    <a href="https://github.com/lxuanhui" target="_blank" rel="noopener noreferrer" className="rounded p-4 dark:hover:bg-slate-800">
-                        <img src="icons8-github.svg" alt="GitHub" className="w-10 h-10" />
+                    <a href="https://github.com/lxuanhui" target="_blank" rel="noreferrer" className="rounded p-3 sm:p-4 dark:hover:bg-slate-800 transition duration-300">
+                        <img src="icons8-github.svg" alt="GitHub" className="w-8 h-8 sm:w-10 sm:h-10" />
                     </a>
-                    <a href="mailto:xuanhui98@email.com" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300">
+                    <a href="mailto:xuanhui98@email.com" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300 text-sm sm:text-base">
                         Contact Me
                     </a>
                 </div>
-
             </div>
-            <div className="flex-1 mt-8 lg:mt-0 flex justify-center lg:justify-end">
+            <div className="flex-1 mt-6 sm:mt-8 lg:mt-0 flex justify-center lg:justify-end">
                 <img
                     src="/Programming-pana.svg"
-                    alt="test"
-                    className="w-full lg:max-w-lg max-w-md object-cover"
+                    alt="Programming illustration"
+                    className="w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
                     style={{ height: "auto" }}
                 />
             </div>
