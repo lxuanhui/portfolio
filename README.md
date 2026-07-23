@@ -3,7 +3,7 @@
 Link to website: https://www.xuanhuilee.com/
 
 
-Created using ReactJS, Bootstrap
-Hosted on AWS Amplify
+Created using ReactJS, Tailwind CSS
+Hosted on Cloudflare Workers
 
 

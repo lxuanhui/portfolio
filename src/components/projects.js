@@ -38,6 +38,28 @@ const Projects = () => (
         </p>
         <div className="grid grid-cols-1 gap-8 lg:px-20 md:px-20 sm:px-10">
             <ProjectCard
+                title="Anvil Fitness"
+                description="Full-Stack Workout Tracker PWA"
+                content="Built a personal workout tracker (think Hevy, minus the social features) with set-by-set logging, supersets, reusable routines, and a 1,393-exercise library with instructions and demo GIFs."
+                content1="Progress analytics including weekly volume, estimated 1RM (Epley formula), personal records, and body measurement tracking. Installable Next.js PWA hosted on Cloudflare Workers."
+                content2="FastAPI backend running on EC2 with Supabase (Postgres with row-level security) for data and auth. Infrastructure managed with Terraform and auto-deployed via GitHub Actions CI/CD."
+                imageUrl="anvil.png"
+                logos={["nextjs", "typescript", "tailwind", "fastapi", "supabase", "cloudflare", "terraform"]}
+                link="https://anvil.xuanhuilee.com"
+
+            />
+            <ProjectCard
+                title="Kino"
+                description="Spotify Wrapped for Letterboxd"
+                content="Turns your Letterboxd viewing history into an animated 16-slide Wrapped-style story, a stats dashboard, and a downloadable 1080x1920 share card - including one of 16 'cinephile archetypes' computed from your viewing data."
+                content1="Privacy-first: the Letterboxd CSV export is parsed entirely in the browser and never leaves the client. Movie data is enriched through a TMDB proxy so the API key never reaches the browser."
+                content2="Fully serverless AWS stack - FastAPI on Lambda behind API Gateway with a DynamoDB cache and Amplify Hosting - all defined in CDK with separate dev and prod stages."
+                imageUrl="kino.png"
+                logos={["react", "typescript", "tailwind", "fastapi", "aws"]}
+                link="https://dev.d30fwa9p6ah5oy.amplifyapp.com/"
+
+            />
+            <ProjectCard
                 title="GovTech Singapore"
                 description="File Anonymization System"
                 content="Created a system that anonymizes CSV, PDF, and Word documents, reducing the time taken to anonymize documents by 80%."
