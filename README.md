@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Link to website: https://www.xuanhuilee.com/
+Link to website: https://xuanhuilee.com/
 
 
 Created using ReactJS, Tailwind CSS
